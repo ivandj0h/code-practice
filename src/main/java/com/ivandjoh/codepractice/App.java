@@ -1,13 +1,15 @@
 package com.ivandjoh.codepractice;
 
-import org.springframework.boot.SpringApplication;
+import com.ivandjoh.codepractice.fancyNumber.FancyNumber;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class App {
 
 	public static void main(String[] args) {
-		SpringApplication.run(App.class, args);
+
+		// FancyNumber
+		FancyNumber.executeFancyNumber();
 	}
 
 }
