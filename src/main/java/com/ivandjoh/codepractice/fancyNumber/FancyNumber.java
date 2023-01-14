@@ -28,7 +28,13 @@ public class FancyNumber {
 
     public static void executeFancyNumber() {
         FancyNumber fancyNumber = new FancyNumber();
-        System.out.println("is " + fancyNumber.mobileNumber + " Fancy Number? The Answer is : " + isFancyNumber(fancyNumber.mobileNumber));
+
+        if (isFancyNumber(fancyNumber.mobileNumber)) {
+            System.out.println("is " + fancyNumber.mobileNumber + " Fancy Number? The Answer is : fancy!.");
+        } else {
+            System.out.println("is " + fancyNumber.mobileNumber + " Fancy Number? The Answer is : not fancy!.");
+        }
+
     }
 
     public static boolean isFancyNumber(String mobileNumber) {
