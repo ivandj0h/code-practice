@@ -30,14 +30,48 @@ public class FancyNumber {
         FancyNumber fancyNumber = new FancyNumber();
 
         if (isFancyNumber(fancyNumber.mobileNumber)) {
-            System.out.println("is " + fancyNumber.mobileNumber + " Fancy Number? The Answer is : fancy!.");
+            System.out.println("is " + fancyNumber.mobileNumber + " Fancy Number? The Answer is : FANCY");
         } else {
-            System.out.println("is " + fancyNumber.mobileNumber + " Fancy Number? The Answer is : not fancy!.");
+            System.out.println("is " + fancyNumber.mobileNumber + " Fancy Number? The Answer is : NOT FANCY");
         }
 
     }
 
     public static boolean isFancyNumber(String mobileNumber) {
-        return mobileNumber.length() == 10;
+        int incrementCount = 0;
+        int decrementCount = 0;
+        int consecutiveCount = 1;
+        int[] countArray = new int[10];
+        int prevDigit = -1;
+        for (int i = 0; i < mobileNumber.length(); i++) {
+
+            int digit = Integer.parseInt(String.valueOf(mobileNumber.charAt(i)));
+            countArray[digit] += 1;
+
+            if (countArray[digit] > 3)
+                return true;
+
+            if (prevDigit == digit)
+                consecutiveCount += 1;
+
+            else if (prevDigit == digit + 1) {
+                incrementCount += 1;
+                decrementCount = 0;
+                consecutiveCount = 1;
+            } else if (digit == prevDigit + 1) {
+                decrementCount += 1;
+                incrementCount = 0;
+                consecutiveCount = 1;
+            }
+
+            if (consecutiveCount == 3)
+                return true;
+
+            if (incrementCount == 2 || decrementCount == 2)
+                return true;
+
+            prevDigit = digit;
+        }
+        return false;
     }
 }
