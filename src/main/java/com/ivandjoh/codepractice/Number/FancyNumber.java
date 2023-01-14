@@ -1,4 +1,4 @@
-package com.ivandjoh.codepractice.fancyNumber;
+package com.ivandjoh.codepractice.Number;
 
 /**
  * @author Ivan Djoh
