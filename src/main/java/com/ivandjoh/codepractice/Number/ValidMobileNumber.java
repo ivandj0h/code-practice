@@ -10,7 +10,7 @@ package com.ivandjoh.codepractice.Number;
  * by removing all characters except the digits in the following format:
 
  * - Form a substring of 3 digits while the length of the remaining string is greater than 3.
- *   Enclose each substring with brackets “()” and separate them with “-“.
+ *   Enclose each substring with brackets “()” and separate them with -.
  * - If a valid mobile number cannot be obtained, i.e. if the string does not consist of 10 digits,
  *   then print -1. Otherwise, print the string obtained.
 
@@ -22,12 +22,11 @@ public class ValidMobileNumber {
     static void Validate(String M) {
 
         int len = M.length();
-        String temp = "";
+        StringBuilder temp = new StringBuilder();
 
         for(int i=0; i<len; i++) {
-            if(Character.isDigit(M.charAt(i))) {
-                temp += M.charAt(i);
-            }
+            if(Character.isDigit(M.charAt(i)))
+                temp.append(M.charAt(i));
         }
         int newLen = temp.length();
         if (newLen != 12) {
