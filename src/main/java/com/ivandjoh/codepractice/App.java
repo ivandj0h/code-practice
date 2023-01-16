@@ -1,5 +1,6 @@
 package com.ivandjoh.codepractice;
 
+import com.ivandjoh.codepractice.Array.FindTheLargestThreeElements;
 import com.ivandjoh.codepractice.Number.FancyNumber;
 import com.ivandjoh.codepractice.Number.ValidMobileNumber;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,6 +15,9 @@ public class App {
 
 		// ValidMobileNumber
 		ValidMobileNumber.executeValidMobileNumber();
+
+		// FindTheLargestThreeElements
+		FindTheLargestThreeElements.executeFindTheLargestThreeElements();
 	}
 
 }
