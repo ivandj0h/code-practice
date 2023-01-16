@@ -1,5 +1,7 @@
 package com.ivandjoh.codepractice.Array;
 
+import java.util.Arrays;
+
 /**
  * @author Ivan Djoh
  * @version 1.0
@@ -15,35 +17,31 @@ package com.ivandjoh.codepractice.Array;
  */
 public class FindTheLargestThreeElements {
 
-    static void printLargest(int arr[], int arr_size) {
+    static void printLargest(int arr[]) {
 
-        int i, first, second, third;
+        Arrays.sort(arr); // It uses Tuned Quicksort with
+        // avg. case Time complexity = O(nLogn)
+        int n = arr.length;
+        int check = 0, count = 1;
 
-        if (arr_size < 3) {
-            System.out.print(" Invalid Input ");
-            return;
-        }
+        for (int i = 1; i <= n; i++) {
 
-        third = first = second = Integer.MIN_VALUE;
-        for (i = 0; i < arr_size; i++) {
-            if (arr[i] > first) {
-                third = second;
-                second = first;
-                first = arr[i];
+            if (count < 4) {
+                if (check != arr[n - i]) {
+                    // to handle duplicate values
+                    System.out.print(arr[n - i] + " ");
+                    check = arr[n - i];
+                    count++;
+                }
             }
-            else if (arr[i] > second) {
-                third = second;
-                second = arr[i];
-            }
-            else if (arr[i] > third)
-                third = arr[i];
+            else
+                break;
         }
-        System.out.println("Three largest elements are " + first + " " + second + " " + third);
     }
 
     public static void executeFindTheLargestThreeElements() {
-        int[] arr = {12, 13, 1, 10, 34, 1};
-        int n = arr.length;
-        printLargest(arr, n);
+        FindTheLargestThreeElements obj = new FindTheLargestThreeElements();
+        int[] arr = { 12, 45, 1, -1, 45, 54, 23, 5, 0, -10 };
+        obj.printLargest(arr);
     }
 }
