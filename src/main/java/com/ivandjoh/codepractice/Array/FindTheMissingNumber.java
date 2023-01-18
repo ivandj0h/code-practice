@@ -37,7 +37,7 @@ public class FindTheMissingNumber {
     }
 
     public static void executeFindTheMissingNumber() {
-        int arr[] = { 1, 3, 7, 5, 6, 2 };
+        int[] arr = { 1, 3, 7, 5, 6, 2 };
         int n = arr.length;
 
         // Function call
