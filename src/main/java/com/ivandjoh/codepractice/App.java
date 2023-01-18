@@ -2,6 +2,7 @@ package com.ivandjoh.codepractice;
 
 import com.ivandjoh.codepractice.Array.FindTheLargestThreeElements;
 import com.ivandjoh.codepractice.Array.FindTheMissingNumber;
+import com.ivandjoh.codepractice.Array.SubarrayWithGivenSum;
 import com.ivandjoh.codepractice.Number.FancyNumber;
 import com.ivandjoh.codepractice.Number.ValidMobileNumber;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,6 +23,9 @@ public class App {
 
 		// FindMissingNumber
 		FindTheMissingNumber.executeFindTheMissingNumber();
+
+		// FindSubarrayWithGivenSum
+		SubarrayWithGivenSum.executeSubarrayWithGivenSum();
 	}
 
 }

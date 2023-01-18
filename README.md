@@ -5,3 +5,4 @@ This repository contains code practice for the following languages: ```JAVA```
 - Validate Mobile Number
 - Find Largest of Three Elements
 - Find The Missing Number
+- Sub-Array With Given Sum
