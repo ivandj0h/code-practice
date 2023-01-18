@@ -63,8 +63,8 @@ public class SortAnArrayOf0s1s2s {
         // Function call
         sortArray(arr, n);
 
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
     }
 }

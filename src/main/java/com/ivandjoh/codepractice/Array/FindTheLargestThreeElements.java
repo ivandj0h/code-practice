@@ -17,7 +17,7 @@ import java.util.Arrays;
  */
 public class FindTheLargestThreeElements {
 
-    static void printLargest(int arr[]) {
+    static void printLargest(int[] arr) {
 
         Arrays.sort(arr); // It uses Tuned Quicksort with
         // avg. case Time complexity = O(nLogn)
@@ -40,8 +40,8 @@ public class FindTheLargestThreeElements {
     }
 
     public static void executeFindTheLargestThreeElements() {
-        FindTheLargestThreeElements obj = new FindTheLargestThreeElements();
         int[] arr = { 12, 45, 1, -1, 45, 54, 23, 5, 0, -10 };
-        obj.printLargest(arr);
+        printLargest(arr);
+        System.out.println("\n");
     }
 }
