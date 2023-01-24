@@ -7,3 +7,4 @@ This repository contains code practice for the following languages: ```JAVA```
 - Find The Missing Number
 - Sub-Array With Given Sum
 - Sort An Array Of 0s, 1s And 2s
+- Binary Search
