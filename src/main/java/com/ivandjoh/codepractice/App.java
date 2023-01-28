@@ -1,5 +1,6 @@
 package com.ivandjoh.codepractice;
 
+import com.ivandjoh.codepractice.Algos.FizzBuzz;
 import com.ivandjoh.codepractice.Array.*;
 import com.ivandjoh.codepractice.Number.FancyNumber;
 import com.ivandjoh.codepractice.Number.ValidMobileNumber;
@@ -34,5 +35,8 @@ public class App {
 
 		// Binary Search
 		BinarySearch.executeBinarySearch();
+
+		// FizzBuzz
+		FizzBuzz.executeFizzBuzz();
 	}
 }
