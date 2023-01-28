@@ -10,3 +10,4 @@ This repository contains code practice for the following languages: ```JAVA```
 - Reverse array in groups
 - Binary Search
 - Fizz Buzz
+- Added Optional

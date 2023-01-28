@@ -38,5 +38,6 @@ public class App {
 
 		// FizzBuzz
 		FizzBuzz.executeFizzBuzz();
+
 	}
 }
