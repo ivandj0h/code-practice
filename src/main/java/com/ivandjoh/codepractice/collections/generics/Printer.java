@@ -24,10 +24,10 @@ public class Printer <T extends Animal & Serializable> {
         // Generic Method
       print("This is came from generic method");
 
-        Printer<Dog> dogPrinter = new Printer<>(new Dog("Dog"));
+        Printer<Dog> dogPrinter = new Printer<>(new Dog("This is a dog"));
         dogPrinter.print();
 
-        Printer<Cat> catPrinter = new Printer<>(new Cat("Cat"));
+        Printer<Cat> catPrinter = new Printer<>(new Cat("This is a cat"));
         catPrinter.print();
     }
 }
