@@ -11,3 +11,5 @@ This repository contains code practice for the following languages: ```JAVA```
 - Binary Search
 - Fizz Buzz
 - Added Optional
+- Added Lambda
+- Added Generic

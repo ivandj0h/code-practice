@@ -5,6 +5,7 @@ import com.ivandjoh.codepractice.Array.*;
 import com.ivandjoh.codepractice.Number.FancyNumber;
 import com.ivandjoh.codepractice.Number.ValidMobileNumber;
 import com.ivandjoh.codepractice.Search.BinarySearch;
+import com.ivandjoh.codepractice.collections.JavaGenerics;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -39,5 +40,7 @@ public class App {
 		// FizzBuzz
 		FizzBuzz.executeFizzBuzz();
 
+		// Java Generics
+		JavaGenerics.executeGeneric();
 	}
 }
