@@ -19,4 +19,9 @@ public class Dog extends Animal implements Serializable {
     public void setBreed(String breed) {
         this.breed = breed;
     }
+
+    @Override
+    public String toString() {
+        return "name = '" + name + "'";
+    }
 }
