@@ -9,3 +9,4 @@ This repository contains code practice for the following languages: ```JAVA```
 - Sort An Array Of 0s, 1s And 2s
 - Reverse array in groups
 - Binary Search
+- Fizz Buzz
