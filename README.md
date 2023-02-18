@@ -30,8 +30,10 @@ Here is the list of all the Codes in this repository, feel free to contribute to
 - Lambda
 - Generic
 - TripletSumClosestToTarget
+- RemoveDuplicatesFromSortedArrayVersionOne
+- RemoveDuplicatesFromSortedArrayVersionTwo
 
 
 ## Contributing
-- [ivandjohe](https://github.com/ivandi1980)
+- [ivandjoh](https://github.com/ivandi1980)
 - [delvin](https://github.com/delvincakep)

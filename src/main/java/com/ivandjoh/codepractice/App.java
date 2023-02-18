@@ -51,5 +51,11 @@ public class App {
 		int a[] = {10, 2, 30, 49, 8};
 		int target = 50;
 		TripletSumClosestToTarget.executeTripleSumClosestToTarget(a, target); // 48
+
+		// Remove Duplicates From Sorted Array v1
+		RemoveDuplicatesFromSortedArrayVersionOne.executeRemoveDuplicates();
+
+		// Remove Duplicates From Sorted Array v2
+		RemoveDuplicatesFromSortedArrayVersionTwo.executeRemoveDuplicates();
 	}
 }
