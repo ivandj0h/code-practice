@@ -29,9 +29,9 @@ Here is the list of all the Codes in this repository, feel free to contribute to
 - Optional
 - Lambda
 - Generic
-- TripletSumClosestToTarget
-- RemoveDuplicatesFromSortedArrayVersionOne
-- RemoveDuplicatesFromSortedArrayVersionTwo
+- Triplet Sum Closest Target
+- Remove Duplicates From Sorted Array Version One
+- Remove Duplicates From Sorted Array Version Two
 
 
 ## Contributing
