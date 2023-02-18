@@ -5,6 +5,7 @@ import com.ivandjoh.codepractice.Array.*;
 import com.ivandjoh.codepractice.Number.FancyNumber;
 import com.ivandjoh.codepractice.Number.ValidMobileNumber;
 import com.ivandjoh.codepractice.Search.BinarySearch;
+import com.ivandjoh.codepractice.Threads.MyRegularTask;
 import com.ivandjoh.codepractice.collections.JavaGenerics;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -42,5 +43,13 @@ public class App {
 
 		// Java Generics
 		JavaGenerics.executeGeneric();
+
+		// Java Threads
+		MyRegularTask.executeRegularTask(args);
+
+		// Triplet Sum Closest To Target
+		int a[] = {10, 2, 30, 49, 8};
+		int target = 50;
+		TripletSumClosestToTarget.executeTripleSumClosestToTarget(a, target); // 48
 	}
 }
