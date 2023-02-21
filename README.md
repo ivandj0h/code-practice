@@ -34,6 +34,7 @@ Here is the list of all the Codes in this repository, feel free to contribute to
 - Remove Duplicates From Sorted Array Version Two
 - Normal Record Pattern (Preview in Java-19)
 - Nested Record Pattern (Preview in Java-19)
+- Structured Concurrency (Preview in Java-19)
 
 
 ## Contributing
