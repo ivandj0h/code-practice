@@ -2,6 +2,7 @@ package com.ivandjoh.codepractice;
 
 import com.ivandjoh.codepractice.Algos.FizzBuzz;
 import com.ivandjoh.codepractice.Array.*;
+import com.ivandjoh.codepractice.Concurrency.StructuredConcurrency;
 import com.ivandjoh.codepractice.Number.FancyNumber;
 import com.ivandjoh.codepractice.Number.ValidMobileNumber;
 import com.ivandjoh.codepractice.RecordPatterns.NestedRecordPatterns;
@@ -11,10 +12,12 @@ import com.ivandjoh.codepractice.Threads.MyRegularTask;
 import com.ivandjoh.codepractice.collections.JavaGenerics;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.concurrent.ExecutionException;
+
 @SpringBootApplication
 public class App {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ExecutionException, InterruptedException {
 
 		// Fancy Number
 		FancyNumber.executeFancyNumber();
@@ -65,5 +68,8 @@ public class App {
 
 		// Record Patterns - Nested
 		NestedRecordPatterns.executeNestedRecordPatterns(args);
+
+		// Structured Concurrency
+		StructuredConcurrency.executeStructuredConcurrency();
 	}
 }
