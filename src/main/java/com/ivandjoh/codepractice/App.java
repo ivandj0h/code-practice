@@ -4,6 +4,8 @@ import com.ivandjoh.codepractice.Algos.FizzBuzz;
 import com.ivandjoh.codepractice.Array.*;
 import com.ivandjoh.codepractice.Number.FancyNumber;
 import com.ivandjoh.codepractice.Number.ValidMobileNumber;
+import com.ivandjoh.codepractice.RecordPatterns.NestedRecordPatterns;
+import com.ivandjoh.codepractice.RecordPatterns.NormalRecordPatterns;
 import com.ivandjoh.codepractice.Search.BinarySearch;
 import com.ivandjoh.codepractice.Threads.MyRegularTask;
 import com.ivandjoh.codepractice.collections.JavaGenerics;
@@ -57,5 +59,11 @@ public class App {
 
 		// Remove Duplicates From Sorted Array v2
 		RemoveDuplicatesFromSortedArrayVersionTwo.executeRemoveDuplicates();
+
+		// Record Patterns - Normal
+		NormalRecordPatterns.executeNormalRecordPatterns(args);
+
+		// Record Patterns - Nested
+		NestedRecordPatterns.executeNestedRecordPatterns(args);
 	}
 }
