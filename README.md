@@ -32,6 +32,8 @@ Here is the list of all the Codes in this repository, feel free to contribute to
 - Triplet Sum Closest Target
 - Remove Duplicates From Sorted Array Version One
 - Remove Duplicates From Sorted Array Version Two
+- Normal Record Pattern (Preview in Java-19)
+- Nested Record Pattern (Preview in Java-19)
 
 
 ## Contributing
