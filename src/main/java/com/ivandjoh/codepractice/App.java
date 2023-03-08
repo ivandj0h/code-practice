@@ -71,5 +71,8 @@ public class App {
 
 		// Structured Concurrency
 		StructuredConcurrency.executeStructuredConcurrency();
+
+		// Java Array List
+		JavaArrayList.executeJavaArrayList();
 	}
 }
