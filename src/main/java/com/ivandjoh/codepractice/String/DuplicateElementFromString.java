@@ -14,14 +14,25 @@ public class DuplicateElementFromString {
 
     public static void executeDuplicateElementFromString() {
 
-        String value = "junadjoh";
+        String value = "dave djoh";
         String[] args = value.split("");
-        Map<String, Long> map = (Map<String, Long>) Arrays.stream(args)
+
+        // Duplicate element from String
+        Map<String, Long> duplicate = (Map<String, Long>) Arrays.stream(args)
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
                 .entrySet()
                 .stream()
                 .filter(e -> e.getValue() > 1)
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-        logger.info("{}", map);
+        logger.info("{}", duplicate);
+
+        // Unique element from String
+        Map<String, Long> unique = (Map<String, Long>) Arrays.stream(args)
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+                .entrySet()
+                .stream()
+                .filter(e -> e.getValue() == 1)
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        logger.info("{}", unique);
     }
 }
