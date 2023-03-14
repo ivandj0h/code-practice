@@ -8,6 +8,8 @@ import com.ivandjoh.codepractice.Number.ValidMobileNumber;
 import com.ivandjoh.codepractice.RecordPatterns.NestedRecordPatterns;
 import com.ivandjoh.codepractice.RecordPatterns.NormalRecordPatterns;
 import com.ivandjoh.codepractice.Search.BinarySearch;
+import com.ivandjoh.codepractice.String.CountOccurrenceOfEachCharacterInString;
+import com.ivandjoh.codepractice.String.DuplicateElementFromString;
 import com.ivandjoh.codepractice.Threads.MyRegularTask;
 import com.ivandjoh.codepractice.collections.JavaGenerics;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -74,5 +76,11 @@ public class App {
 
 		// Java Array List
 		JavaArrayList.executeJavaArrayList();
+
+		// Count Occurrence Of Each Character In String
+		CountOccurrenceOfEachCharacterInString.executeCountOccurrenceOfEachCharacterInString();
+
+		// Duplicate Element From String
+		DuplicateElementFromString.executeDuplicateElementFromString();
 	}
 }
