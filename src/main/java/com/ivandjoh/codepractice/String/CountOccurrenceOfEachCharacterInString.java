@@ -12,7 +12,7 @@ public class CountOccurrenceOfEachCharacterInString {
     private static final Logger logger = LoggerFactory.getLogger(CountOccurrenceOfEachCharacterInString.class);
 
     public static void executeCountOccurrenceOfEachCharacterInString() {
-        String str = "ilovejavatechie";
+        String str = "arjuna djoh";
         Map<Character, Long> map = str.chars()
                 .mapToObj(c -> (char) c)
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
