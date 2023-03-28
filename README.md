@@ -39,6 +39,7 @@ Here is the list of all the Codes in this repository, feel free to contribute to
 - Count Occurrence Of Each Character In String
 - Duplicate Elements from given String
 - Non Repeated Element From String
+- Reverse String
 
 
 ## Contributing

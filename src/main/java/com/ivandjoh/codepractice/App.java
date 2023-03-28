@@ -8,9 +8,7 @@ import com.ivandjoh.codepractice.Number.ValidMobileNumber;
 import com.ivandjoh.codepractice.RecordPatterns.NestedRecordPatterns;
 import com.ivandjoh.codepractice.RecordPatterns.NormalRecordPatterns;
 import com.ivandjoh.codepractice.Search.BinarySearch;
-import com.ivandjoh.codepractice.String.CountOccurrenceOfEachCharacterInString;
-import com.ivandjoh.codepractice.String.DuplicateElementFromString;
-import com.ivandjoh.codepractice.String.NonRepeatedElementFromString;
+import com.ivandjoh.codepractice.String.*;
 import com.ivandjoh.codepractice.Threads.MyRegularTask;
 import com.ivandjoh.codepractice.collections.JavaGenerics;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -86,5 +84,11 @@ public class App {
 
 		// Non Repeated Element From String
 		NonRepeatedElementFromString.executeNonRepeatedElementFromString();
+
+		// Reverse String
+		ReverseString.executeReverseString("arjuna djoh");
+
+		// Delete Alternate Characters
+		DeleteAlternateCharacters.executeDeleteAlternateCharacters("arjuna djoh");
 	}
 }
