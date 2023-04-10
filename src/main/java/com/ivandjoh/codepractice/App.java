@@ -54,7 +54,8 @@ public class App {
 		MyRegularTask.executeRegularTask(args);
 
 		// Triplet Sum Closest To Target
-		int a[] = {10, 2, 30, 49, 8};
+		int[] a;
+		a = new int[]{10, 2, 30, 49, 8};
 		int target = 50;
 		TripletSumClosestToTarget.executeTripleSumClosestToTarget(a, target); // 48
 
