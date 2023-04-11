@@ -41,6 +41,7 @@ Here is the list of all the Codes in this repository, feel free to contribute to
 - Non Repeated Element From String
 - Reverse String
 - Delete Alternate Characters From String
+- Binary String Conversion
 
 
 ## Contributing
