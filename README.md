@@ -42,6 +42,7 @@ Here is the list of all the Codes in this repository, feel free to contribute to
 - Reverse String
 - Delete Alternate Characters From String
 - Binary String Conversion
+- Binary Gap
 
 
 ## Contributing
