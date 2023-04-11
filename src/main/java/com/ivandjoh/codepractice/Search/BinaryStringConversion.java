@@ -2,7 +2,7 @@ package com.ivandjoh.codepractice.Search;
 
 public class BinaryStringConversion {
 
-    public static void executeBinaryStringConversion(String args) {
+    public static void executeBinaryStringConversion() {
         int N = 9;
         binaryStringConversion(N);
     }

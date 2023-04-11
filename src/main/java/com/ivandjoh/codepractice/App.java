@@ -7,6 +7,7 @@ import com.ivandjoh.codepractice.Number.FancyNumber;
 import com.ivandjoh.codepractice.Number.ValidMobileNumber;
 import com.ivandjoh.codepractice.RecordPatterns.NestedRecordPatterns;
 import com.ivandjoh.codepractice.RecordPatterns.NormalRecordPatterns;
+import com.ivandjoh.codepractice.Search.BinaryGap;
 import com.ivandjoh.codepractice.Search.BinarySearch;
 import com.ivandjoh.codepractice.Search.BinaryStringConversion;
 import com.ivandjoh.codepractice.String.*;
@@ -94,6 +95,9 @@ public class App {
 		DeleteAlternateCharacters.executeDeleteAlternateCharacters("arjuna djoh");
 
 		// Binary String Conversion
-		BinaryStringConversion.executeBinaryStringConversion("1010101");
+		BinaryStringConversion.executeBinaryStringConversion();
+
+		// Binary Gap
+		BinaryGap.executeBinaryGap();
 	}
 }
